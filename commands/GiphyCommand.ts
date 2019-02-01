@@ -36,7 +36,7 @@ export class GiphyCommand implements ISlashCommand {
         }
 
         return {
-            i18nTitle: '(Powered by GIPHY) Results for',
+            i18nTitle: 'Results for',
             items,
         };
     }
