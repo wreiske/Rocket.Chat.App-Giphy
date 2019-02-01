@@ -1,0 +1,6 @@
+{
+    "GIPHY_Command_Description": "Search for a matching GIF (Powered by GIPHY.com)",
+    "GIPHY_Search_Term": "cat fail",
+    "Customize_GIPHY_APIKey": "GIPHY API Key",
+    "Customize_GIPHY_APIKey_Description": "Get your own GIPHY API key at https://developers.giphy.com"
+}

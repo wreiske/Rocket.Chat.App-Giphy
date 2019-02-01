@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72px"
+   height="72px"
+   viewBox="0 0 72 72"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="Giphy.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:export-filename="/Users/wreiske/Downloads/Giphy-256.png"
+   inkscape:export-xdpi="341.32999"
+   inkscape:export-ydpi="341.32999">
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1461"
+     inkscape:window-height="906"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="28.209845"
+     inkscape:cy="34.50806"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg18" />
+  <title
+     id="title2">giphy</title>
+  <rect
+     style="opacity:1;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.42054996;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     id="rect829"
+     width="72"
+     height="72"
+     x="0"
+     y="-7.5495166e-15" />
+  <g
+     id="providers-list"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="giphy">
+      <g
+         transform="translate(17.000000, 12.000000)"
+         id="g12">
+        <path
+           id="Rectangle-1"
+           fill="#2AFC9C"
+           d="M0 4h5v40H0z" />
+        <path
+           id="Rectangle-3"
+           fill="#9740FA"
+           d="M33 13h5v31h-5z" />
+        <path
+           id="Rectangle-6"
+           fill="#4A1F7C"
+           d="M33 15h5v5h-5z" />
+        <path
+           id="Rectangle-2"
+           fill="#22CDFB"
+           d="M0 43h38v5H0z" />
+        <path
+           id="path9"
+           fill="#FFF39F"
+           d="M0 0h25v5H0z" />
+        <path
+           id="Rectangle-5"
+           fill="#FB6769"
+           d="M23 0h5v5h5v5h5v5H23z" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <rdf:Description
+         about="https://iconscout.com/legal#licenses"
+         dc:title="giphy"
+         dc:description="giphy"
+         dc:publisher="Iconscout"
+         dc:date="2017-09-26"
+         dc:format="image/svg+xml"
+         dc:language="en">
+        <dc:creator>
+          <rdf:Bag>
+            <rdf:li>Luc Chaffard</rdf:li>
+          </rdf:Bag>
+        </dc:creator>
+      </rdf:Description>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
