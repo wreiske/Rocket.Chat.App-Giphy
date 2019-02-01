@@ -15,12 +15,11 @@ export class GiphyResult {
             this.originalUrl = data.images.original.url as string;
         }
     }
-
+    
     public toPreviewItem(): ISlashCommandPreviewItem {
         if (!this.id || !this.previewUrl) {
             throw new Error('Invalid result');
         }
-
         return {
             id: this.id,
             type: SlashCommandPreviewItemType.IMAGE,

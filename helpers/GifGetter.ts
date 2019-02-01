@@ -1,7 +1,5 @@
 import { HttpStatusCode, IHttp, ILogger, IRead } from '@rocket.chat/apps-engine/definition/accessors';
-
 import { GiphyResult } from '../helpers/GiphyResult';
-
 
 export class GifGetter {
     private readonly url = 'https://api.giphy.com/v1/gifs/';
@@ -12,9 +10,9 @@ export class GifGetter {
         if (!search) {
             search = 'random';
         }
-        
+
         const key = await read.getEnvironmentReader().getSettings().getValueById('giphy_apikey');
-        const response = await http.get(`${ this.url }search?api_key=${ key }&q=${ search }&limit=10`);
+        const response = await http.get(`${this.url}search?api_key=${key}&q=${search}&limit=10`);
 
         if (response.statusCode !== HttpStatusCode.OK || !response.data || !response.data.data) {
             logger.debug('Did not get a valid response', response);
@@ -25,13 +23,12 @@ export class GifGetter {
         }
 
         logger.debug('We got this many results:', response.data.data.length);
-
         return response.data.data.map((r) => new GiphyResult(r));
     }
 
     public async getOne(logger: ILogger, http: IHttp, gifId: string, read: IRead): Promise<GiphyResult> {
         const key = await read.getEnvironmentReader().getSettings().getValueById('giphy_apikey');
-        const response = await http.get(`${ this.url }${ gifId }?api_key=${ key }`);
+        const response = await http.get(`${this.url}${gifId}?api_key=${key}`);
 
         if (response.statusCode !== HttpStatusCode.OK || !response.data || !response.data.data) {
             logger.debug('Did not get a valid response', response);
@@ -42,7 +39,6 @@ export class GifGetter {
         }
 
         logger.debug('The returned data:', response.data.data);
-
         return new GiphyResult(response.data.data);
     }
 }

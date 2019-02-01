@@ -1,6 +1,5 @@
 import { IHttp, IModify, IPersistence, IRead } from '@rocket.chat/apps-engine/definition/accessors';
 import { ISlashCommand, ISlashCommandPreview, ISlashCommandPreviewItem, SlashCommandContext } from '@rocket.chat/apps-engine/definition/slashcommands';
-
 import { GiphyApp } from '../Giphy';
 import { GiphyResult } from '../helpers/GiphyResult';
 
@@ -43,7 +42,7 @@ export class GiphyCommand implements ISlashCommand {
     }
 
     public async executePreviewItem(item: ISlashCommandPreviewItem, context: SlashCommandContext, read: IRead,
-                                    modify: IModify, http: IHttp, persis: IPersistence): Promise<void> {
+        modify: IModify, http: IHttp, persis: IPersistence): Promise<void> {
         const builder = modify.getCreator().startMessage().setSender(context.getSender()).setRoom(context.getRoom());
 
         try {
