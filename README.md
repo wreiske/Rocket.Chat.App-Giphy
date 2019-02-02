@@ -1,6 +1,8 @@
 # Rocket.Chat.App-Giphy
 giphy.com integration for Rocket.Chat (new maintainer)
 
+![Giphy Logo](https://raw.githubusercontent.com/wreiske/Rocket.Chat.App-Giphy/master/images/Giphy-256.png)
+
 ![GIPHY Rocket.Chat Integration Preview](https://i.imgur.com/v5dYBMo.gif)
 
 ## Contributors
