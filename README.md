@@ -1,7 +1,17 @@
 # Rocket.Chat.App-Giphy
+
 giphy.com integration for Rocket.Chat (new maintainer)
 
 ![GIPHY Rocket.Chat Integration Preview](https://i.imgur.com/v5dYBMo.gif)
+
+## Language and Rating Support
+
+This app supports changing the search language as well as the rating of images returned.
+
+https://developers.giphy.com/docs/#language-support
+
+![Settings](https://i.imgur.com/0TXw6Md.png)
+![Spanish Preview](https://i.imgur.com/dWBI3n6.gif)
 
 ## Contributors
 

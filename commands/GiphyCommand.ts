@@ -47,13 +47,20 @@ export class GiphyCommand implements ISlashCommand {
 
         try {
             const gif = await this.app.getGifGetter().getOne(this.app.getLogger(), http, item.id, read);
+            const showTitle = await read.getEnvironmentReader().getSettings().getValueById('giphy_show_title');
+            const trigger = context.getArguments().join(' ').trim();
+
             builder.addAttachment({
                 title: {
-                    value: gif.title,
+                    value: ((showTitle) ? gif.title.trim() : ''),
                 },
-                imageUrl: gif.originalUrl,
+                author: {
+                    icon: 'https://raw.githubusercontent.com/wreiske/Rocket.Chat.App-Giphy/master/images/Giphy-256.png',
+                    name: `/giphy ${trigger.trim()}`,
+                    link: `https://giphy.com/search/${trigger.trim()}`,
+                },
+                imageUrl: gif.originalUrl
             });
-
             await modify.getCreator().finish(builder);
         } catch (e) {
             this.app.getLogger().error('Failed getting a gif', e);

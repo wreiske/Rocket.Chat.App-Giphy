@@ -27,11 +27,38 @@ export class GiphyApp extends App {
         await configuration.settings.provideSetting({
             id: 'giphy_apikey',
             type: SettingType.STRING,
-            packageValue: 'kICM0DRhpfvIcGLhtmCjqEigApnPMLXf',
+            packageValue: '',
             required: true,
             public: false,
             i18nLabel: 'Customize_GIPHY_APIKey',
             i18nDescription: 'Customize_GIPHY_APIKey_Description',
+        });
+        await configuration.settings.provideSetting({
+            id: 'giphy_lang_code',
+            type: SettingType.STRING,
+            packageValue: 'en',
+            required: true,
+            public: false,
+            i18nLabel: 'Customize_GIPHY_Language',
+            i18nDescription: 'Customize_GIPHY_Language_Description',
+        });
+        await configuration.settings.provideSetting({
+            id: 'giphy_rating',
+            type: SettingType.STRING,
+            packageValue: 'G',
+            required: true,
+            public: false,
+            i18nLabel: 'Customize_GIPHY_Rating',
+            i18nDescription: 'Customize_GIPHY_Rating_Description',
+        });
+        await configuration.settings.provideSetting({
+            id: 'giphy_show_title',
+            type: SettingType.BOOLEAN,
+            packageValue: true,
+            required: true,
+            public: false,
+            i18nLabel: 'Customize_GIPHY_Show_Title',
+            i18nDescription: 'Customize_GIPHY_Show_Title_Description',
         });
         await configuration.slashCommands.provideSlashCommand(new GiphyCommand(this));
     }
