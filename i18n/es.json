@@ -1,0 +1,14 @@
+{
+  "Customize_GIPHY_APIKey": "Clave API GIPHY",
+  "Customize_GIPHY_APIKey_Description": "Obtenga su propia clave API de GIPHY en https://developers.giphy.com",
+  "Customize_GIPHY_Language": "Buscar código de idioma",
+  "Customize_GIPHY_Language_Description": "Busque los códigos de idioma disponibles en https://developers.giphy.com/docs/#language-support",
+  "Customize_GIPHY_Rating": "Clasificación",
+  "Customize_GIPHY_Rating_Description": "La calificación de estilo MPAA para este contenido. Los ejemplos incluyen Y, G, PG, PG-13 y R",
+  "Customize_GIPHY_Show_Title": "Mostrar títulos de imagen",
+  "Customize_GIPHY_Show_Title_Description": "Muestra el título del gif (si existe un título)",
+  "GIPHY_Command_Description": "Buscar un GIF coincidente (Desarrollado por GIPHY.com)",
+  "GIPHY_Error_Sending": "Se produjo un error al intentar enviar el gif :disappointed_relieved:",
+  "GIPHY_Preview_Title": "Resultados para",
+  "GIPHY_Search_Term": "gata"
+}

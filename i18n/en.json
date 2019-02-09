@@ -1,8 +1,14 @@
 {
-    "GIPHY_Command_Description": "Search for a matching GIF (Powered by GIPHY.com)",
-    "GIPHY_Search_Term": "cat fail",
-    "Customize_GIPHY_APIKey": "GIPHY API Key",
-    "Customize_GIPHY_APIKey_Description": "Get your own GIPHY API key at https://developers.giphy.com",
-    "GIPHY_Preview_Title": "Results for",
-    "GIPHY_Error_Sending": "An error occurred when trying to send the gif :disappointed_relieved:"
+  "Customize_GIPHY_APIKey": "GIPHY API Key",
+  "Customize_GIPHY_APIKey_Description": "Please get your own GIPHY API key at https://developers.giphy.com",
+  "Customize_GIPHY_Language": "Search Language Code",
+  "Customize_GIPHY_Language_Description": "Lookup available language codes at https://developers.giphy.com/docs/#language-support",
+  "Customize_GIPHY_Rating": "Rating",
+  "Customize_GIPHY_Rating_Description": "The MPAA-style rating for this content. Examples include Y, G, PG, PG-13 and R",
+  "Customize_GIPHY_Show_Title": "Show Image Titles",
+  "Customize_GIPHY_Show_Title_Description": "Shows the title of the gif (if a title exists)",
+  "GIPHY_Command_Description": "Search for a matching GIF (Powered by GIPHY.com)",
+  "GIPHY_Error_Sending": "An error occurred when trying to send the gif :disappointed_relieved:",
+  "GIPHY_Preview_Title": "Results for",
+  "GIPHY_Search_Term": "cat fail"
 }
