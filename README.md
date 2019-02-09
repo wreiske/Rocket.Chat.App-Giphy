@@ -24,3 +24,9 @@ https://github.com/graywolf336
 https://github.com/frdmn
 
 ![GIPHY](https://raw.githubusercontent.com/wreiske/Rocket.Chat.App-Giphy/master/images/PoweredBy_640_Horizontal_Light-Backgrounds_With_Logo.gif)
+
+## Related Apps
+
+https://github.com/wreiske/Rocket.Chat.App-Tenor
+
+https://github.com/wreiske/Rocket.Chat.App-Imgur
