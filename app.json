@@ -2,11 +2,12 @@
     "id": "8b882242-0cb7-419f-87d8-93b1d09e1ec2",
     "name": "GIPHY",
     "nameSlug": "giphy",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "requiredApiVersion": "^1.4.0",
     "description": "Search for GIFs directly inside Rocket.Chat (Powered by GIPHY.com)",
     "author": {
         "name": "Reiske.Tech",
+        "homepage": "https://reiske.tech",
         "support": "https://github.com/wreiske/Rocket.Chat.App-Giphy/issues"
     },
     "classFile": "Giphy.ts",
