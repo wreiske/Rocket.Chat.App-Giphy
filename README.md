@@ -28,4 +28,5 @@ The initial Rocket.Chat GIPHY app was coded and updated by
 ## Related Apps
 
 <https://github.com/wreiske/Rocket.Chat.App-Tenor>
+
 <https://github.com/wreiske/Rocket.Chat.App-Imgur>
