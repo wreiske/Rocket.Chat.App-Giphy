@@ -1,6 +1,6 @@
 # Rocket.Chat.App-Giphy
 
-giphy.com integration for Rocket.Chat (new maintainer)
+giphy.com integration for Rocket.Chat (Powered by RocketBooster!)
 
 ![Giphy Logo](https://raw.githubusercontent.com/wreiske/Rocket.Chat.App-Giphy/master/images/Giphy-256.png)
 
@@ -19,14 +19,13 @@ https://developers.giphy.com/docs/#language-support
 
 The initial Rocket.Chat GIPHY app was coded and updated by
 
-https://github.com/graywolf336
+<https://github.com/graywolf336>
 
-https://github.com/frdmn
+<https://github.com/frdmn>
 
 ![GIPHY](https://raw.githubusercontent.com/wreiske/Rocket.Chat.App-Giphy/master/images/PoweredBy_640_Horizontal_Light-Backgrounds_With_Logo.gif)
 
 ## Related Apps
 
-https://github.com/wreiske/Rocket.Chat.App-Tenor
-
-https://github.com/wreiske/Rocket.Chat.App-Imgur
+<https://github.com/wreiske/Rocket.Chat.App-Tenor>
+<https://github.com/wreiske/Rocket.Chat.App-Imgur>
