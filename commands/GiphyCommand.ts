@@ -45,6 +45,12 @@ export class GiphyCommand implements ISlashCommand {
         modify: IModify, http: IHttp, persis: IPersistence): Promise<void> {
         const builder = modify.getCreator().startMessage().setSender(context.getSender()).setRoom(context.getRoom());
 
+        const tid = context.getThreadId();
+
+        if (tid) {
+            builder.setThreadId(tid);
+        }
+
         try {
             const gif = await this.app.getGifGetter().getOne(this.app.getLogger(), http, item.id, read);
             const showTitle = await read.getEnvironmentReader().getSettings().getValueById('giphy_show_title');
