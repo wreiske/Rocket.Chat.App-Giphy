@@ -10,7 +10,7 @@ import { SettingType } from '@rocket.chat/apps-engine/definition/settings';
 import { GiphyCommand } from './commands/GiphyCommand';
 import { GifGetter } from './helpers/GifGetter';
 
-export class GiphyApp extends App {
+export class Giphy extends App {
     private gifGetter: GifGetter;
 
     constructor(info: IAppInfo, logger: ILogger) {

@@ -1,6 +1,6 @@
 import { IHttp, IModify, IPersistence, IRead } from '@rocket.chat/apps-engine/definition/accessors';
 import { ISlashCommand, ISlashCommandPreview, ISlashCommandPreviewItem, SlashCommandContext } from '@rocket.chat/apps-engine/definition/slashcommands';
-import { GiphyApp } from '../Giphy';
+import { Giphy } from '../Giphy';
 import { GiphyResult } from '../helpers/GiphyResult';
 
 export class GiphyCommand implements ISlashCommand {
@@ -9,7 +9,7 @@ export class GiphyCommand implements ISlashCommand {
     public i18nDescription = 'GIPHY_Command_Description';
     public providesPreview = true;
 
-    constructor(private readonly app: GiphyApp) { }
+    constructor(private readonly app: Giphy) { }
 
     public executor(context: SlashCommandContext, read: IRead, modify: IModify, http: IHttp, persis: IPersistence): Promise<void> {
         // if there are no args or args[0] === 'random'
