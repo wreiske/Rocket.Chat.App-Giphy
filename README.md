@@ -10,7 +10,7 @@ giphy.com integration for Rocket.Chat (Powered by RocketBooster!)
 
 This app supports changing the search language as well as the rating of images returned.
 
-https://developers.giphy.com/docs/#language-support
+https://developers.giphy.com/docs/optional-settings#language-support
 
 ![Settings](https://i.imgur.com/0TXw6Md.png)
 ![Spanish Preview](https://i.imgur.com/dWBI3n6.gif)

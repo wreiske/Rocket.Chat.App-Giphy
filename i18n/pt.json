@@ -2,7 +2,7 @@
   "Customize_GIPHY_APIKey": "Chave da API GIPHY",
   "Customize_GIPHY_APIKey_Description": "Por favor, obtenha sua própria chave da API GIPHY em https://developers.giphy.com",
   "Customize_GIPHY_Language": "Pesquisar código de idioma",
-  "Customize_GIPHY_Language_Description": "Procure códigos de idioma disponíveis em https://developers.giphy.com/docs/#language-support",
+  "Customize_GIPHY_Language_Description": "Procure códigos de idioma disponíveis em https://developers.giphy.com/docs/optional-settings#language-support",
   "Customize_GIPHY_Rating": "Classificação",
   "Customize_GIPHY_Rating_Description": "A classificação ao estilo MPAA para este conteúdo. Exemplos incluem Y, G, PG, PG-13 e R",
   "Customize_GIPHY_Show_Title": "Mostrar títulos de imagens",

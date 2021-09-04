@@ -2,7 +2,7 @@
   "Customize_GIPHY_APIKey": "GIPHY API-nyckel",
   "Customize_GIPHY_APIKey_Description": "Vänligen få din egen GIPHY API-nyckel på https://developers.giphy.com",
   "Customize_GIPHY_Language": "Sök språkkod",
-  "Customize_GIPHY_Language_Description": "Sök tillgängliga språkkoder på https://developers.giphy.com/docs/#language-support",
+  "Customize_GIPHY_Language_Description": "Sök tillgängliga språkkoder på https://developers.giphy.com/docs/optional-settings#language-support",
   "Customize_GIPHY_Rating": "Betyg",
   "Customize_GIPHY_Rating_Description": "MPAA-stilbetyg för det här innehållet. Exempel är Y, G, PG, PG-13 och R",
   "Customize_GIPHY_Show_Title": "Visa bildtitlar",
