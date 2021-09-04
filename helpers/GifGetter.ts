@@ -15,9 +15,9 @@ export class GifGetter {
         const key = await read.getEnvironmentReader().getSettings().getValueById('giphy_apikey') || this.defaultKey;
         const langCode = await read.getEnvironmentReader().getSettings().getValueById('giphy_lang_code') || 'en';
         const rating = await read.getEnvironmentReader().getSettings().getValueById('giphy_rating') || 'g';
-        const response = await http.get(`${this.url}search?api_key=${key}&q=${search}&limit=10&lang=${langCode}&rating=${rating}`);
+        const response = await http.get(`${this.url}search?api_key=${key}&q=${encodeURIComponent(search)}&limit=10&lang=${langCode}&rating=${rating}`);
 
-        if (response.statusCode !== HttpStatusCode.OK || !response.data || !response.data.data) {
+        if (response && response.statusCode !== HttpStatusCode.OK || !response || !response.data || !response.data.data) {
             logger.debug('Did not get a valid response', response);
             throw new Error('Unable to retrieve gifs.');
         } else if (!Array.isArray(response.data.data)) {
@@ -33,7 +33,7 @@ export class GifGetter {
         const key = await read.getEnvironmentReader().getSettings().getValueById('giphy_apikey') || this.defaultKey;
         const response = await http.get(`${this.url}${gifId}?api_key=${key}`);
 
-        if (response.statusCode !== HttpStatusCode.OK || !response.data || !response.data.data) {
+        if (response && response.statusCode !== HttpStatusCode.OK || !response || !response.data || !response.data.data) {
             logger.debug('Did not get a valid response', response);
             throw new Error('Unable to retrieve the gif.');
         } else if (typeof response.data.data !== 'object') {
