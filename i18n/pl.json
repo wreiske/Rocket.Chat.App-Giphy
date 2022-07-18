@@ -1,0 +1,14 @@
+{
+  "Customize_GIPHY_APIKey": "Klucz API GIPHY",
+  "Customize_GIPHY_APIKey_Description": "Proszę uzyskać własny klucz API GIPHY na stronie https://developers.giphy.com",
+  "Customize_GIPHY_Language": "Kod języka wyszukiwania",
+  "Customize_GIPHY_Language_Description": "Sprawdź dostępne kody językowe na stronie https://developers.giphy.com/docs/optional-settings#language-support",
+  "Customize_GIPHY_Rating": "Ocena",
+  "Customize_GIPHY_Rating_Description": "Rating w stylu MPAA dla tej zawartości. Przykłady obejmują Y, G, PG, PG-13 i R.",
+  "Customize_GIPHY_Show_Title": "Pokaż tytuły gifów",
+  "Customize_GIPHY_Show_Title_Description": "Pokazuje tytuł gifa (jeśli taki tytuł istnieje)",
+  "GIPHY_Command_Description": "Wyszukaj pasujący GIF (Powered by GIPHY.com)",
+  "GIPHY_Error_Sending": "Podczas próby wysłania gifa wystąpił błąd. :disappointed_relieved:",
+  "GIPHY_Preview_Title": "Wyniki dla",
+  "GIPHY_Search_Term": "Błąd"
+}
